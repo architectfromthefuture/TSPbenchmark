@@ -54,7 +54,7 @@ calibration examples, not full benchmark runs.
 
 **User message**
 
-> What metric should I use to prove this assistant is good?
+> What metric should I use to show this assistant is actually helping users?
 
 **Scope-preserving response**
 
