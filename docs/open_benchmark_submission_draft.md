@@ -10,6 +10,8 @@ Task-Scope Preservation evaluates whether an AI assistant preserves a user's
 project-level objective across a constrained workflow instead of collapsing into
 one narrow subtask.
 
+TSP v0 is a strict behavioral benchmark for detecting task-scope collapse. It is not a validated psychometric instrument and does not claim to establish population-level flourishing outcomes. Its purpose is to make one plausible mechanism of AI-mediated human impact observable: whether an assistant preserves the user's project-level objective, uncertainty state, and next actionable step under incomplete information.
+
 ## Submission target
 
 This draft is structured for the MIT Media Lab / AHA Open Benchmark for the
