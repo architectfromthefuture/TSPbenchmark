@@ -17,9 +17,7 @@ Human Impact of AI submission process.
 
 - Open Benchmark overview: <https://www.media.mit.edu/projects/the-open-benchmark-for-the-human-impact-of-ai/overview/>
 - Project repository: <https://github.com/architectfromthefuture/TSPbenchmark>
-- Local benchmark folder: `benchmarks/task_scope_preservation/`
-- Submission reference PDF: `../Final_Next Steps for Benchmarks for Human Impact of AI-1.pdf`
-- Internal working notes (patience / empathy / inclusion / grounding; joint model of the work; static vs. dynamic benchmarking): [`../../../../AHA_Submission.md`](../../../../AHA_Submission.md) when nested under `obversary-eval-harness`
+- Workshop context (Media Lab / AHA): *Final Next Steps for Benchmarks for Human Impact of AI* — cited by title via the [Open Benchmark project](https://www.media.mit.edu/projects/the-open-benchmark-for-the-human-impact-of-ai/overview/) for process-level evaluation framing (especially Reasoning, Comprehension, and Agency).
 
 ## Motivation
 
@@ -95,10 +93,11 @@ auditable model-behavior benchmark.
 
 Starting references for final submission review:
 
-- MIT Media Lab / AHA workshop report, `Final_Next Steps for Benchmarks for Human Impact of AI-1.pdf`, especially the process-level evaluation framing and the Reasoning, Comprehension, and Agency track.
+- MIT Media Lab / AHA workshop report *Final Next Steps for Benchmarks for Human Impact of AI* — process-level evaluation framing and the Reasoning, Comprehension, and Agency track (see Open Benchmark link above).
 - Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. *American Psychologist*, 55(1), 68-78. https://doi.org/10.1037/0003-066X.55.1.68
 - Sweller, J. (1988). Cognitive load during problem solving: Effects on learning. *Cognitive Science*, 12(2), 257-285. https://doi.org/10.1207/s15516709cog1202_4
-- Offloading under cognitive load: Humans are willing to offload parts of an attentionally demanding task to an algorithm. *PLOS ONE* (2023). https://doi.org/10.1371/journal.pone.0286102
+- Wahn, B., Schmitz, L., Gerster, F. N., & Weiss, M. (2023). Offloading under cognitive load: Humans are willing to offload parts of an attentionally demanding task to an algorithm. *PLOS ONE*, 18(5), e0286102. https://doi.org/10.1371/journal.pone.0286102
+- Zou, J., Poeppel, D., & Ding, N. (2026). Constituent-constrained word prediction during language comprehension. *Nature Neuroscience*. https://doi.org/10.1038/s41593-026-02272-6
 - MIT Media Lab **ai-psychosis** — simulated multi-turn psychological-risk scenarios, model responses, and harmful-response taxonomy (Open Benchmark–adjacent human-impact artifact; interactive explorer at https://simulate.cyborglab.org/). https://github.com/mitmedialab/ai-psychosis (preprint: https://arxiv.org/abs/2511.08880)
 
 ## Why static correctness is insufficient

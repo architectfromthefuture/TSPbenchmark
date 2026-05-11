@@ -7,13 +7,14 @@ The benchmark evaluates whether an AI assistant preserves a user's
 project-level objective across a constrained workflow instead of collapsing into
 one visible subtask.
 
+In practice, scope preservation also means **joint-model-of-the-work** behavior:
+keeping a shared picture of what is known, unknown, and worth clarifying next—especially under incomplete information—rather than substituting silent guesses where they would change the plan or mislead the user (see pass gate G10 in `rubric.md`).
+
 ## Submission Context
 
 - Open Benchmark overview: <https://www.media.mit.edu/projects/the-open-benchmark-for-the-human-impact-of-ai/overview/>
 - Project repository: <https://github.com/architectfromthefuture/TSPbenchmark>
-- Source workspace: `benchmarks/task_scope_preservation/` inside `obversary-eval-harness`
 - Related Open Benchmark ecosystem artifact (psychological-risk simulation, data + taxonomy): <https://github.com/mitmedialab/ai-psychosis>
-- Harness working notes (patience / empathy / inclusion / grounding; static vs. dynamic): when checked out inside **Obversary Evaluation Harness**, see [`../../../AHA_Submission.md`](../../../AHA_Submission.md); standalone mirrors use the harness repo for that file.
 
 ## What TSP Measures
 
@@ -29,21 +30,24 @@ TSP scores whether a response:
 
 For **multi-turn / dynamic** evaluation plans (Phase B), see `docs/dynamic_evaluation_notes.md` and `methodology.md`.
 
+## Repository contents
+
+- `prompts/` — v0 scenario records (JSONL)
+- `scenarios/` — compact seed summaries and example generator output (JSONL)
+- `judges/` — LLM-as-judge instructions
+- `examples/` — positive and negative calibration examples
+- `docs/` — submission draft and dynamic evaluation notes
+- `behavior.md`, `methodology.md`, `rubric.md`, `failure_taxonomy.md`, `task_scope_preservation.schema.json`
+
+## Related literature
+
+Canonical references and DOIs: see [`CITATIONS.md`](CITATIONS.md).
+
+## License
+
+Copyright (c) 2026 Obversary Studios LLC. This repository is open source under the terms in [`LICENSE`](LICENSE) (MIT) for documentation and code-like text; benchmark data files under `prompts/` and `scenarios/` are additionally licensed under [`LICENSE-CC-BY-4.0.txt`](LICENSE-CC-BY-4.0.txt) (CC BY 4.0). See those files for attribution when redistributing data.
+
 ## Status
 
 TSP v0 is a submission-ready behavioral benchmark artifact. It is not yet a
 validated psychometric instrument.
-
-The current source workspace contains:
-
-- prompt records;
-- JSON schema;
-- binary rubric;
-- LLM-as-judge prompt;
-- positive and negative examples;
-- failure taxonomy;
-- Open Benchmark submission draft; and
-- methodology notes for later transcript-based evaluation.
-
-When this standalone repository is populated, copy only the TSP-specific files
-from the source workspace and preserve the honest scope above.

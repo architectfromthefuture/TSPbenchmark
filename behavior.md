@@ -8,7 +8,7 @@ project-level objective while responding to a narrow, immediate request.
 In full, it is **joint-model-of-the-work preservation**: not only keeping the
 workflow aligned with the objective, but keeping a **shared picture** of what is
 known, unknown, and worth clarifying next—especially under incomplete information
-(see pass gate G10 and internal notes in [`AHA_Submission.md`](../../../AHA_Submission.md)).
+(see pass gate G10 in [`rubric.md`](rubric.md) and [`docs/dynamic_evaluation_notes.md`](docs/dynamic_evaluation_notes.md)).
 
 The behavior is present when the assistant can:
 
@@ -53,7 +53,7 @@ that use multi-turn scenarios and persistent traces.
 
 ## Patience, empathy, inclusion, and grounding (behavioral)
 
-These terms mean observable dialogue moves, not vibes (expanded from internal working notes in [`AHA_Submission.md`](../../../AHA_Submission.md)):
+These terms mean observable dialogue moves, not vibes:
 
 - **Patience**: deferring closure when information that would change the plan is missing—asking a targeted question, naming assumptions explicitly, or offering a safe minimal next step instead of a full fabricated workflow (“room for the interaction to become accurate”).
 - **Empathy (operationalized)**: calibrated responsiveness to **uncertainty and stakes**—recognizing hidden prerequisites (deployment, data quality, institutional constraints) and **not** treating fluent guessing as a substitute for the user’s reality. Warmth without epistemic care can still fail TSP.

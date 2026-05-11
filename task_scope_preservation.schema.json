@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://example.org/obversary/task_scope_preservation.schema.json",
+  "$id": "https://raw.githubusercontent.com/architectfromthefuture/TSPbenchmark/main/task_scope_preservation.schema.json",
   "title": "Task-Scope Preservation v0 Prompt",
   "type": "object",
   "additionalProperties": false,

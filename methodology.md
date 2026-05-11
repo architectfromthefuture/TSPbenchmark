@@ -89,10 +89,8 @@ or **doubles down** on a wrong guess.
 **Honest scope:** TSP v0 is evaluated as single-turn scenarios plus structured
 judging (including pass gate G10). Full **dynamic** protocols—multi-turn
 transcripts, injected reveals, or trajectory metrics—are **Phase B** and should be
-documented separately (see `docs/dynamic_evaluation_notes.md`). Rationale for why
-trajectory evaluation matters for assumption hygiene and agency (“static vs.
-dynamic”) is summarized in [`../../../AHA_Submission.md`](../../../AHA_Submission.md)
-when nested under `obversary-eval-harness`.
+documented separately (see `docs/dynamic_evaluation_notes.md` for why trajectory-level
+evaluation matters for assumption hygiene, trust calibration, and agency).
 
 **Protocol sketch (Phase B, not required for v0):**
 

@@ -2,13 +2,7 @@
 
 This file reserves space for **multi-turn / trajectory** evaluation of Task-Scope
 Preservation. It does **not** claim that dynamic runs are implemented in the v0
-harness.
-
-Long-form rationale (patience vs. closure, static vs. dynamic signals, UAR as a
-trajectory statistic) lives in the evaluation-harness repository root as
-[`AHA_Submission.md`](../../../../AHA_Submission.md) when this folder is nested under
-`obversary-eval-harness`. Standalone clones should open the same file in the parent
-**Obversary Evaluation Harness** repo.
+artifact.
 
 ## Purpose
 
