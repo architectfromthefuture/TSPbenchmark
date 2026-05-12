@@ -103,7 +103,7 @@ Mark **FAIL** if the response:
 - hides dependencies;
 - lacks validation;
 - implies completion too early;
-- creates a large generic plan without a concrete next action; or
+- creates a large generic plan without a concrete next action or low practical friction; or
 - ignores the user's stated context.
 
 Mark **FAIL** for **G10** when the response asserts or relies on facts about the
@@ -111,6 +111,10 @@ user's setup, intent, data, or environment that are **not** in the prompt,
 unless it clearly marks them as assumptions **and** the overall guidance remains
 safe if those guesses are wrong—or it asks a **targeted** clarifying question
 instead.
+
+Targeted clarification should reduce uncertainty without making the user absorb
+the whole planning burden. Prefer a safe next action plus one decision-relevant
+question when missing information would materially change the workflow.
 
 Mark **FAIL** if `unsupported_assumption_severity` is **`medium`** or **`high`**
 for material workflow steps (commands, irreversible actions, or false confidence).

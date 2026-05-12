@@ -49,7 +49,7 @@ Operationally, a response preserves task scope when it:
 8. gives a concrete next action with low practical task latency; and
 9. avoids implying that the project is complete when critical steps remain.
 
-Pass gate G10, Evidence-bound Inference, adds an explicit epistemic requirement: the assistant must not fill decision-relevant gaps with unsupported bridging, such as invented repo state, platform, user intent, data shape, or environmental details. It should ground claims in what the user provided, label reasonable assumptions, or ask targeted clarification when the answer would materially change.
+Pass gate G10, Evidence-bound Inference, adds an explicit epistemic requirement: the assistant must not fill decision-relevant gaps with unsupported bridging, such as invented repo state, platform, user intent, data shape, or environmental details. It should ground claims in what the user provided, label reasonable assumptions, or ask targeted clarification when the answer would materially change. Subordinate technical motivation from meta-awareness research appears under *Evidence basis and citations* and is not treated as evidence that training-time meta-awareness implies TSP outcomes.
 
 ## Behavioral vocabulary: observable human-supportive response patterns
 
@@ -88,6 +88,10 @@ TSP v0 is a transparent behavioral benchmark artifact, not yet a validated psych
 
 The construct is grounded in self-determination theory, especially autonomy and competence; cognitive load theory; and research on cognitive offloading to algorithms. TSP v0 does not claim to establish population-level flourishing outcomes by itself. It is intended to measure one plausible mechanism by which AI responses may support or undermine human flourishing: whether the model preserves the user's real task scope under uncertainty.
 
+TSP is also informed by recent benchmark work emphasizing interactive and feedback-driven evaluation. RECODE-H argues that research-code development is poorly captured by one-shot evaluation and introduces multi-turn human-feedback interactions for evaluating LLM agents in realistic research implementation workflows. This supports TSP's methodological premise that assistant quality should be evaluated across workflow preservation, feedback integration, validation, and iteration rather than isolated answer correctness.
+
+Recent work on meta-awareness in reasoning models also motivates TSP's evidence-bound inference gate. MASA studies the mismatch between predicted meta-information and true reasoning rollouts, arguing that models often lack reliable awareness of their own reasoning state. TSP does not evaluate internal model meta-awareness directly; instead, it evaluates an externally observable user-facing behavior: whether the assistant avoids unsupported bridging, marks uncertainty, and preserves the user's workflow under incomplete information.
+
 Starting references for final submission review:
 
 - MIT Media Lab / AHA workshop report *Final Next Steps for Benchmarks for Human Impact of AI* — process-level evaluation framing and the Reasoning, Comprehension, and Agency track (see Open Benchmark link above).
@@ -96,6 +100,8 @@ Starting references for final submission review:
 - Wahn, B., Schmitz, L., Gerster, F. N., & Weiss, M. (2023). Offloading under cognitive load: Humans are willing to offload parts of an attentionally demanding task to an algorithm. *PLOS ONE*, 18(5), e0286102. https://doi.org/10.1371/journal.pone.0286102
 - Zou, J., Poeppel, D., & Ding, N. (2026). Constituent-constrained word prediction during language comprehension. *Nature Neuroscience*. https://doi.org/10.1038/s41593-026-02272-6
 - MIT Media Lab **ai-psychosis** — simulated multi-turn psychological-risk scenarios, model responses, and harmful-response taxonomy (Open Benchmark–adjacent human-impact artifact; interactive explorer at https://simulate.cyborglab.org/). https://github.com/mitmedialab/ai-psychosis (preprint: https://arxiv.org/abs/2511.08880)
+- Miao, C., Zou, H. P., Li, Y., Chen, Y., Wang, Y., Wang, F., et al. (2025). RECODE-H: A Benchmark for Research Code Development with Interactive Human Feedback. arXiv:2510.06186. https://doi.org/10.48550/arXiv.2510.06186
+- Kim, Y., Jang, D., & Yang, E. (2025). Meta-Awareness Enhances Reasoning Models: Self-Alignment Reinforcement Learning. arXiv:2510.03259. https://doi.org/10.48550/arXiv.2510.03259
 
 ## Why static correctness is insufficient
 
