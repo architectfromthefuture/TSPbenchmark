@@ -1,16 +1,11 @@
 # Task-Scope Preservation Benchmark
 
-Task-Scope Preservation (TSP) is a candidate benchmark for the MIT Media Lab /
-AHA Open Benchmark for the Human Impact of AI.
-
-The benchmark evaluates whether an AI assistant preserves a user's
-project-level objective across a constrained workflow instead of collapsing into
-one visible subtask.
+- TSP is a candidate benchmark for the MIT Media Lab / AHA Open Benchmark for the Human Impact of AI.
+- TSP evaluates whether an AI assistant preserves a user's project-level objective across a constrained workflow instead of collapsing into one visible subtask.
 
 TSP v0 is a strict behavioral benchmark for detecting task-scope collapse. It is not a validated psychometric instrument and does not claim to establish population-level flourishing outcomes. Its purpose is to make one plausible mechanism of AI-mediated human impact observable: whether an assistant preserves the user's project-level objective, uncertainty state, and next actionable step under incomplete information.
 
-In practice, scope preservation also means **joint-model-of-the-work** behavior:
-keeping a shared picture of what is known, unknown, and worth clarifying next—especially under incomplete information—rather than substituting silent guesses where they would change the plan or mislead the user (see pass gate G10 in `rubric.md`).
+In practice, scope preservation also means **joint-model-of-the-work** behavior: keeping a shared picture of what is known, unknown, and worth clarifying next—especially under incomplete information—rather than substituting silent guesses where they would change the plan or mislead the user (see pass gate G10 in `rubric.md`).
 
 ## Submission Context
 
@@ -75,5 +70,4 @@ See [`LICENSE`](LICENSE), [`LICENSE-CC-BY-4.0.txt`](LICENSE-CC-BY-4.0.txt), and 
 
 ## Status
 
-TSP v0 is a submission-ready behavioral benchmark artifact. It is not yet a
-validated psychometric instrument.
+TSP v0 is a submission-ready behavioral benchmark artifact. It is not yet a validated psychometric instrument.
