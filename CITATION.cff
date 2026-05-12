@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use Task-Scope Preservation (TSP v0), please cite it as below."
+title: "Task-Scope Preservation Benchmark (TSP v0)"
+type: dataset
+authors:
+  - family-names: "Moran"
+    given-names: "Brian"
+    affiliation: "Obversary Studios LLC"
+year: 2026
+repository-code: "https://github.com/architectfromthefuture/TSPbenchmark"
+url: "https://github.com/architectfromthefuture/TSPbenchmark"
+abstract: "Task-Scope Preservation (TSP v0) is an open-source behavioral benchmark artifact for evaluating whether AI assistants preserve a user's project-level objective, uncertainty state, and next actionable step under incomplete information rather than collapsing into one visible subtask."
+keywords:
+  - AI evaluation
+  - benchmark
+  - human-AI interaction
+  - task-scope preservation
+  - evidence-bound inference
+  - agent evaluation
+license: "CC-BY-4.0"

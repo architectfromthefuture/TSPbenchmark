@@ -47,9 +47,31 @@ For **multi-turn / dynamic** evaluation plans (Phase B), see `docs/dynamic_evalu
 
 Canonical references and DOIs: see [`CITATIONS.md`](CITATIONS.md).
 
+## Citation
+
+If you use Task-Scope Preservation (TSP v0) in research, evaluation, reporting, or benchmark comparison work, please cite it as:
+
+```bibtex
+@misc{moran2026tspbenchmark,
+  author = {Brian Moran},
+  title = {Task-Scope Preservation Benchmark (TSP v0)},
+  year = {2026},
+  publisher = {Obversary Studios LLC},
+  url = {https://github.com/architectfromthefuture/TSPbenchmark},
+  note = {Open-source benchmark artifact for evaluating task-scope preservation and evidence-bound inference in AI assistant responses}
+}
+```
+
+Citation metadata is also available in [`CITATION.cff`](CITATION.cff).
+
 ## License
 
-Copyright (c) 2026 Obversary Studios LLC. This repository is open source under the terms in [`LICENSE`](LICENSE) (MIT) for documentation and code-like text; benchmark data files under `prompts/` and `scenarios/` are additionally licensed under [`LICENSE-CC-BY-4.0.txt`](LICENSE-CC-BY-4.0.txt) (CC BY 4.0). See those files for attribution when redistributing data.
+This repository uses split licensing:
+
+- Code-like materials, schemas, documentation, methodology notes, rubric text, and judge templates are licensed under the MIT License.
+- Benchmark data and reusable evaluation content under `prompts/`, `scenarios/`, and `examples/` are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+See [`LICENSE`](LICENSE), [`LICENSE-CC-BY-4.0.txt`](LICENSE-CC-BY-4.0.txt), and [`CITATION.cff`](CITATION.cff).
 
 ## Status
 
