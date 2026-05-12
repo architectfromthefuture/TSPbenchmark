@@ -13,3 +13,9 @@ Canonical references cited in support of Task-Scope Preservation v0 (conceptual 
 5. Zou, J., Poeppel, D., & Ding, N. (2026). Constituent-constrained word prediction during language comprehension. *Nature Neuroscience*. <https://doi.org/10.1038/s41593-026-02272-6> — Article: <https://www.nature.com/articles/s41593-026-02272-6>
 
 6. MIT Media Lab **ai-psychosis** — Simulated multi-turn psychological-risk scenarios, model responses, and harmful-response taxonomy; explorer at <https://simulate.cyborglab.org/>. Repository: <https://github.com/mitmedialab/ai-psychosis>. Preprint: <https://arxiv.org/abs/2511.08880>
+
+Methodological and technical anchors (not core flourishing citations): RECODE-H supports evaluating assistants in iterative, feedback-driven workflows rather than one-shot settings. Meta-awareness / MASA is cited only as subordinate technical motivation for evidence-bound inference; it does not establish TSP and is not about human flourishing or project-scope preservation as constructed here.
+
+7. Miao, C., Zou, H. P., Li, Y., Chen, Y., Wang, Y., Wang, F., et al. (2025). *RECODE-H: A Benchmark for Research Code Development with Interactive Human Feedback*. arXiv:2510.06186. <https://doi.org/10.48550/arXiv.2510.06186>
+
+8. Kim, Y., Jang, D., & Yang, E. (2025). *Meta-Awareness Enhances Reasoning Models: Self-Alignment Reinforcement Learning*. arXiv:2510.03259. <https://doi.org/10.48550/arXiv.2510.03259>
