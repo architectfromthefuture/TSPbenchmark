@@ -26,9 +26,11 @@ TSP scores whether a response:
 - distinguishes the visible subtask from the full workflow;
 - decomposes and sequences required work;
 - names dependencies, validation checks, and recovery paths;
-- avoids false completion signals; and
-- reduces cognitive load with a concrete next action;
-- passes **G10 (Evidence-bound inference)**: no unsupported bridging of missing facts as if they were known (see `rubric.md`).
+- avoids false completion signals;
+- reduces cognitive load with a concrete next action; and
+- passes **G10, Evidence-bound Inference**: no unsupported bridging of missing facts as if they were known (see `rubric.md`).
+
+In practical terms, TSP asks whether the assistant preserves the user's real work without inventing missing context, prematurely narrowing the task, or signaling completion before the workflow is actually ready.
 
 For **multi-turn / dynamic** evaluation plans (Phase B), see `docs/dynamic_evaluation_notes.md` and `methodology.md`.
 
